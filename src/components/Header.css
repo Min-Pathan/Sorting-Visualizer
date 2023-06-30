@@ -1,0 +1,62 @@
+nav{
+  width: 100%;
+}
+
+.header {
+  height: 3rem;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.header-logo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  width: 50%;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+
+@media (max-width: 500px) {
+  .header-logo
+  {
+    font-size: 1rem;
+    color: blueviolet;
+  }
+
+  .form-check-label{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+.navDes ul
+{
+  display:flex;
+  text-align: center;
+  list-style: none;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: blue;
+}
+
+.header__options {
+  display: flex;
+  margin-left: 50%;
+  margin-top: -40px;
+  width: 50%;
+  padding-left: 35%;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.custom-control-label
+{
+  padding-left: 5px;
+}
